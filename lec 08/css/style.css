@@ -24,3 +24,38 @@ https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg
 https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg
 */
 
+
+
+img{
+        align-items:center;
+        width: 300px;
+        height: 300px;
+        margin: 17px;
+        transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1.5);
+    transform:rotate(240deg);
+}
+
+h1{
+    font-size:5em;
+    font-family: "Sitka Text";
+    border-bottom: 2px darkblue;
+    border-right: 2px darkblue;
+    text-align: center;
+
+
+}
+
+.my-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body{
+    border-style: dashed;
+    background: grey;
+    margin:100px;
+}
